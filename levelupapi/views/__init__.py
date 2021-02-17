@@ -4,3 +4,4 @@ from .gametype import GameTypes
 from .gametype import GameTypeSerializer
 from .game import Games
 from .game import GameSerializer
+from .event import Events, EventGamerSerializer, EventSerializer, EventUserSerializer
