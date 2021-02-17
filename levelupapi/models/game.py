@@ -4,7 +4,7 @@ from .gametype import GameType
 
 
 
-class Games(models.Model):
+class Game(models.Model):
     
     gamer = models.ForeignKey(Gamer, on_delete=models.CASCADE)
     gametype = models.ForeignKey(GameType, on_delete=models.CASCADE)

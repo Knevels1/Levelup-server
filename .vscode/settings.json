@@ -3,7 +3,7 @@
         {
             "previewLimit": 50,
             "driver": "SQLite",
-            "name": "levelupapi server",
+            "name": "levelup server",
             "database": "db.sqlite3"
         }
     ]
