@@ -1,0 +1,24 @@
+[
+    {
+        "model": "levelupapi.games",
+        "pk": 1,
+        "fields": {
+            "gamer": 1,
+            "gametype": 1,
+            "title": "Monopoly",
+            "description": "destroying families since 1993",
+            "number_of_players": 3
+        }
+    },
+    {
+        "model": "levelupapi.games",
+        "pk": 2,
+        "fields": {
+            "gamer": 1,
+            "gametype": 2,
+            "title": "World of Warcraft",
+            "description": "A fantasy role playing game that involes quests and magic",
+            "number_of_players": 100
+        }
+    }
+]

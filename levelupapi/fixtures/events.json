@@ -1,0 +1,22 @@
+[
+    {
+        "model": "levelupapi.event",
+        "pk": 1,
+        "fields": {
+            "scheduler": 1,
+            "game": 1,
+            "scheduled_time": "2020-09-15",
+            "location": "1103 anderson drive apt 2"
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+            "scheduler": 1,
+            "game": 2,
+            "scheduled_time": "2020-10-05",
+            "location": "1103 anderson drive apt 8"
+        }
+    }
+]
