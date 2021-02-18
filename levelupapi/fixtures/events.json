@@ -3,20 +3,44 @@
         "model": "levelupapi.event",
         "pk": 1,
         "fields": {
-            "scheduler": 1,
             "game": 1,
-            "scheduled_time": "2020-09-15",
-            "location": "1103 anderson drive apt 2"
+            "location": "haunted house in the middle of the woods",
+            "date": "2021-03-16",
+            "time": "3:12",
+            "scheduler": 1
         }
     },
     {
         "model": "levelupapi.event",
         "pk": 2,
         "fields": {
-            "scheduler": 1,
             "game": 2,
-            "scheduled_time": "2020-10-05",
-            "location": "1103 anderson drive apt 8"
+            "location": "The moon",
+            "date": "2021-01-19",
+            "time": "1:56",
+            "scheduler": 1
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 3,
+        "fields": {
+            "game": 3,
+            "location": "Clubhouse on main",
+            "date": "2026-02-11",
+            "time": "5:40",
+            "scheduler": 1
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 4,
+        "fields": {
+            "game": 4,
+            "location": "Your happy place",
+            "date": "2022-08-24",
+            "time": "7:00",
+            "scheduler": 1
         }
     }
 ]

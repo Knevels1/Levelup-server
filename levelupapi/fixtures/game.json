@@ -3,22 +3,44 @@
         "model": "levelupapi.game",
         "pk": 1,
         "fields": {
+            "title": "Chess",
+            "game_type": 1,
+            "number_of_players": 2,
             "gamer": 1,
-            "gametype": 1,
-            "title": "Monopoly",
-            "description": "destroying families since 1993",
-            "number_of_players": 3
+            "description": "Chess is a board game for two players. a battle of wits and skill always think 18 moves ahead!"
         }
     },
     {
         "model": "levelupapi.game",
         "pk": 2,
         "fields": {
+            "title": "Welcome To",
+            "game_type": 1,
+            "number_of_players": 4,
             "gamer": 1,
-            "gametype": 2,
-            "title": "World of Warcraft",
-            "description": "A fantasy role playing game that involes quests and magic",
-            "number_of_players": 100
+            "description": "BUILD BUILD BUILD! Develop your city in the best possible way"
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 3,
+        "fields": {
+            "title": "Settlers of Catan",
+            "game_type": 1,
+            "number_of_players": 4,
+            "gamer": 1,
+            "description": "build and try to destroy your enemies but be weary as they try to do the same to you"
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 4,
+        "fields": {
+            "title": "Dungeons & Dragons",
+            "game_type": 2,
+            "number_of_players": 5,
+            "gamer": 1,
+            "description": "The Dungeons & Dragons roleplaying game is about storytelling in worlds of sword and sorcery. It allows the player an escape"
         }
     }
 ]
