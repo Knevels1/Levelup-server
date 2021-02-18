@@ -7,6 +7,6 @@ class Event(models.Model):
 
     game = models.ForeignKey(Game, on_delete=models.CASCADE)
     location = models.CharField(max_length=50)
-    date = models.DateField(auto_now=False, auto_now_add=False)
-    time = models.TimeField(auto_now=False, auto_now_add=False)
+    date = models.DateField()
+    time = models.TimeField()
     scheduler = models.ForeignKey(Gamer, on_delete=models.CASCADE)
